@@ -11,4 +11,3 @@ class ProductoViewSet(viewsets.ModelViewSet):
     serializer_class = ProductoSerializer
     permission_classes = [IsAuthenticatedOrReadOnly]
 
-# Create your views here.
